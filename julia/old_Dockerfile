@@ -1,0 +1,22 @@
+# julia/Dockerfile
+FROM benchmark_twfew-base:latest
+
+ARG JULIA_VERSION=1.13.1
+
+RUN curl -fsSL \
+        "https://julialang-s3.julialang.org/bin/linux/x64/${JULIA_VERSION%.*}/julia-${JULIA_VERSION}-linux-x86_64.tar.gz" \
+        -o /tmp/julia.tar.gz \
+    && tar -xzf /tmp/julia.tar.gz -C /opt \
+    && ln -s "/opt/julia-${JULIA_VERSION}/bin/julia" /usr/local/bin/julia \
+    && rm /tmp/julia.tar.gz
+
+ENV JULIA_DEPOT_PATH=/opt/julia-depot
+
+RUN mkdir -p "${JULIA_DEPOT_PATH}"
+
+WORKDIR /benchmark_twfew
+
+CMD ["julia"]
+
+# Add packages and precompile 
+RUN julia -e 'import Pkg; Pkg.add(Pkg.Spec(url = "https://github.com/Paulogcd/twowayfeweights.jl/"); using TwoWayFEWeights'

@@ -1,0 +1,9 @@
+julia_resultat_1 = twowayfeweights(
+    data                = wagepan,
+    Y                   = "lwage",
+    G                   = "nr",
+    T                   = "year",
+    D                   = "union",
+    type                = "feTR",
+    summary_measures    = true,
+    test_random_weights = "educ")
