@@ -16,7 +16,7 @@ RESULTS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../results" && pwd)"
 REPETITIONS="${REPETITIONS:-10}"
 WARMUPS="${WARMUPS:-2}"
 
-TEST="${01-02}"
+TEST="${1:-03}"
 
 # ============================================================
 # Checks
@@ -30,13 +30,13 @@ if [[ ! -d "${TEST_DIR}" ]]; then
     exit 1
 fi
 
-if [[ ! -f "${TEST_DIR}/R_pre.R" ]]; then
-    echo "ERROR: missing R_pre.R"
+if [[ ! -f "${TEST_DIR}/r_pre.R" ]]; then
+    echo "ERROR: missing r_pre.R"
     exit 1
 fi
 
-if [[ ! -f "${TEST_DIR}/R_test.R" ]]; then
-    echo "ERROR: missing R_test.R"
+if [[ ! -f "${TEST_DIR}/r_test.R" ]]; then
+    echo "ERROR: missing r_test.R"
     exit 1
 fi
 
@@ -47,7 +47,7 @@ TIMESTAMP="$(date -u +"%Y%m%dT%H%M%SZ")"
 OUTPUT_DIR="${RESULTS_DIR}/${TEST}"
 mkdir -p "${OUTPUT_DIR}"
 
-RESULTS_FILE="${OUTPUT_DIR}/R_${TIMESTAMP}.jsonl"
+RESULTS_FILE="${OUTPUT_DIR}/r_${TIMESTAMP}.jsonl"
 
 echo "========================================"
 echo "Scientific benchmark"
@@ -74,9 +74,9 @@ docker run \
     \
     "${IMAGE}" \
     Rscript \
-        /benchmark/runner/R_runner.R \
+        /benchmark/runner/r_runner.R \
         /benchmark/test \
-        "/benchmark/results/R_${TIMESTAMP}.jsonl" \
+        "/benchmark/results/r_${TIMESTAMP}.jsonl" \
         "${REPETITIONS}" \
         "${WARMUPS}"
 

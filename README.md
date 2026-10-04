@@ -4,6 +4,7 @@ This is a folder dedicated to the benchmark of the different versions of the Two
 
 Its structure is:
 
+```
 benchmark_twfew/
 │
 ├── base/
@@ -13,21 +14,38 @@ benchmark_twfew/
 │   └── Dockerfile
 │
 ├── julia/
-│   ├── Dockerfile
-│   ├── Project.toml
-│   └── Manifest.toml
+│   └── Dockerfile
 │
-├── stata/
+├── python/
+│   └── Dockerfile
+│
+├── stata/ # Not yet implemented
 │   ├── Dockerfile
 │   └── stata-installer/
 │
 └── tests/
+│   ├── 01/
+│   ├── 02/
+│   └── ...
+│
 └── results/
+│   ├── 01/
+│   ├── 02/
+│   └── ...
 │
 └── controller/
     └── ...
+````
 
 # Build the images
 
+For more details about the construction of the images, go see the `docker_make.sh` file.
+
+# Run the benchmark
+
 For more details about the construction of the images, go see the `make.sh` file.
 
+# Next steps
+
+- Write all tests successfully
+- Include GPU method in benchmark

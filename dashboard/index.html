@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Benchmark Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="app">
+
+    <header class="header">
+        <div>
+            <div class="eyebrow">PERFORMANCE REPORT</div>
+            <h1>Benchmark Dashboard</h1>
+            <p class="subtitle">
+                Runtime comparison across packages and implementations
+            </p>
+        </div>
+
+        <div class="header-actions">
+            <button id="themeToggle" class="icon-button">
+                ☾
+            </button>
+        </div>
+    </header>
+
+
+    <!-- Filters -->
+
+    <section class="toolbar">
+
+        <div class="filter">
+            <label for="benchmarkFilter">Benchmark</label>
+            <select id="benchmarkFilter">
+                <option value="all">All benchmarks</option>
+            </select>
+        </div>
+
+        <div class="filter">
+            <label for="packageFilter">Package</label>
+            <select id="packageFilter">
+                <option value="all">All packages</option>
+            </select>
+        </div>
+
+    </section>
+
+
+    <!-- KPI cards -->
+
+    <section class="stats-grid">
+
+        <div class="stat-card accent">
+            <span class="stat-label">Fastest</span>
+            <strong id="fastestPackage">—</strong>
+            <span id="fastestTime" class="stat-detail">—</span>
+        </div>
+
+        <div class="stat-card">
+            <span class="stat-label">Median</span>
+            <strong id="overallMedian">—</strong>
+            <span class="stat-detail">selected results</span>
+        </div>
+
+        <div class="stat-card">
+            <span class="stat-label">Measurements</span>
+            <strong id="measurementCount">—</strong>
+            <span class="stat-detail">benchmark runs</span>
+        </div>
+
+        <div class="stat-card">
+            <span class="stat-label">Packages</span>
+            <strong id="packageCount">—</strong>
+            <span class="stat-detail">implementations</span>
+        </div>
+
+    </section>
+
+
+    <!-- Main ranking -->
+
+    <section class="panel">
+
+        <div class="panel-header">
+            <div>
+                <h2>Performance comparison</h2>
+                <p>Median runtime by package</p>
+            </div>
+        </div>
+
+        <div class="chart-container large">
+            <canvas id="rankingChart"></canvas>
+        </div>
+
+    </section>
+
+
+    <!-- Charts -->
+
+    <section class="two-column">
+
+        <div class="panel">
+
+            <div class="panel-header">
+                <div>
+                    <h2>Run-to-run performance</h2>
+                    <p>Runtime for each repetition</p>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <canvas id="runsChart"></canvas>
+            </div>
+
+        </div>
+
+
+        <div class="panel">
+
+            <div class="panel-header">
+                <div>
+                    <h2>Runtime distribution</h2>
+                    <p>Minimum, median and maximum</p>
+                </div>
+            </div>
+
+            <div class="distribution-list" id="distributionList">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Detailed table -->
+
+    <section class="panel">
+
+        <div class="panel-header">
+            <div>
+                <h2>Detailed results</h2>
+                <p>Statistical summary for every package</p>
+            </div>
+        </div>
+
+        <div class="table-wrapper">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Package</th>
+                        <th>Mean</th>
+                        <th>Median</th>
+                        <th>Min</th>
+                        <th>Max</th>
+                        <th>Std. dev.</th>
+                        <th>Relative</th>
+                    </tr>
+                </thead>
+
+                <tbody id="resultsTable">
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <span>Benchmark Dashboard</span>
+        <span id="generatedAt"></span>
+    </footer>
+
+</div>
+
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

@@ -21,9 +21,15 @@ RUN julia --version
 
 RUN julia -e 'import Pkg; Pkg.add(Pkg.PackageSpec(url="https://github.com/Paulogcd/twowayfeweights.jl/")); using TwoWayFEWeights'
 
+# Does not work, we ignore it for now.
+# COPY ../twowayfeweights.jl /opt/twowayfeweights
+# RUN julia -e 'import Pkg; Pkg.develop(path="/opt/twowayfeweights"); using TwoWayFEWeights'
+
 RUN julia -e 'import Pkg; Pkg.add("ReadStatTables")'
 RUN julia -e 'import Pkg; Pkg.add("DataFrames")'
+RUN julia -e 'import Pkg; Pkg.add("CSV")'
 
 RUN julia -e 'using ReadStatTables'
 RUN julia -e 'using DataFrames'
 RUN julia -e 'using Downloads'
+RUN julia -e 'using CSV'

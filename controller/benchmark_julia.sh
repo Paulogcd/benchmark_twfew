@@ -16,7 +16,7 @@ RESULTS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../results" && pwd)"
 REPETITIONS="${REPETITIONS:-10}"
 WARMUPS="${WARMUPS:-2}"
 
-TEST="${1:-01}"
+TEST="${1:-03}"
 
 # ============================================================
 # Checks
@@ -30,13 +30,13 @@ if [[ ! -d "${TEST_DIR}" ]]; then
     exit 1
 fi
 
-if [[ ! -f "${TEST_DIR}/Julia_pre.jl" ]]; then
-    echo "ERROR: missing Julia_pre.jl"
+if [[ ! -f "${TEST_DIR}/julia_pre.jl" ]]; then
+    echo "ERROR: missing julia_pre.jl"
     exit 1
 fi
 
-if [[ ! -f "${TEST_DIR}/Julia_test.jl" ]]; then
-    echo "ERROR: missing Julia_test.jl"
+if [[ ! -f "${TEST_DIR}/julia_test.jl" ]]; then
+    echo "ERROR: missing julia_test.jl"
     exit 1
 fi
 
@@ -57,12 +57,12 @@ TIMESTAMP="$(date -u +"%Y%m%dT%H%M%SZ")"
 OUTPUT_DIR="${RESULTS_DIR}/${TEST}"
 mkdir -p "${OUTPUT_DIR}"
 
-RESULTS_FILE="${OUTPUT_DIR}/Julia_${TIMESTAMP}.jsonl"
+RESULTS_FILE="${OUTPUT_DIR}/julia_${TIMESTAMP}.jsonl"
 
 echo "========================================"
 echo "Scientific benchmark"
 echo "========================================"
-echo "Language:       Julia"
+echo "Language:       julia"
 echo "Test:           ${TEST}"
 echo "Image:          ${IMAGE}"
 echo "Warmups:        ${WARMUPS}"
@@ -84,9 +84,9 @@ docker run \
     \
     "${IMAGE}" \
     julia \
-        /benchmark/runner/Julia_runner.jl \
+        /benchmark/runner/julia_runner.jl \
         /benchmark/test \
-        "/benchmark/results/Julia_${TIMESTAMP}.jsonl" \
+        "/benchmark/results/julia_${TIMESTAMP}.jsonl" \
         "${REPETITIONS}" \
         "${WARMUPS}"
 

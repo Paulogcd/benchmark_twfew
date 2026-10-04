@@ -1,0 +1,28 @@
+services:
+  julia:
+    build:
+      context: .
+      dockerfile: julia/Dockerfile
+    volumes:
+      - ./data:/data:ro
+
+  python:
+    build:
+      context: .
+      dockerfile: python/Dockerfile
+    volumes:
+      - ./data:/data:ro
+
+  # stata:
+  #   build:
+  #     context: .
+  #     dockerfile: stata/Dockerfile
+  #   volumes:
+  #     - ./data:/data:ro
+
+  r:
+    build:
+      context: .
+      dockerfile: r/Dockerfile
+    volumes:
+      - ./data:/data:ro

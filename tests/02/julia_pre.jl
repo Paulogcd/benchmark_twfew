@@ -1,3 +1,8 @@
+using Downloads
+using ReadStatTables
+using DataFrames
+using TwoWayFEWeights
+
 repo = "chaisemartinPackages/twowayfeweights/main"
 file = "wagepan_twfeweights.dta"
 url = "https://raw.githubusercontent.com" * "/" * repo * "/" * file
