@@ -30,13 +30,13 @@ if [[ ! -d "${TEST_DIR}" ]]; then
     exit 1
 fi
 
-if [[ ! -f "${TEST_DIR}/julia_pre.jl" ]]; then
-    echo "ERROR: missing julia_pre.jl"
+if [[ ! -f "${TEST_DIR}/julia_gpu_pre.jl" ]]; then
+    echo "ERROR: missing julia_gpu_pre.jl"
     exit 1
 fi
 
-if [[ ! -f "${TEST_DIR}/julia_test.jl" ]]; then
-    echo "ERROR: missing julia_test.jl"
+if [[ ! -f "${TEST_DIR}/julia_gpu_test.jl" ]]; then
+    echo "ERROR: missing julia_gpu_test.jl"
     exit 1
 fi
 
@@ -57,7 +57,7 @@ TIMESTAMP="$(date -u +"%Y%m%dT%H%M%SZ")"
 OUTPUT_DIR="${RESULTS_DIR}/${TEST}"
 mkdir -p "${OUTPUT_DIR}"
 
-RESULTS_FILE="${OUTPUT_DIR}/julia_multithreading_${TIMESTAMP}.jsonl"
+RESULTS_FILE="${OUTPUT_DIR}/julia_gpu_${TIMESTAMP}.jsonl"
 
 echo "========================================"
 echo "Scientific benchmark"
@@ -83,10 +83,10 @@ docker run \
     -v "${OUTPUT_DIR}:/benchmark/results" \
     \
     "${IMAGE}" \
-    julia --threads=auto \
-        /benchmark/runner/julia_runner.jl \
+    julia \
+        /benchmark/runner/gpu_runner.jl \
         /benchmark/test \
-        "/benchmark/results/julia_multithreading_${TIMESTAMP}.jsonl" \
+        "/benchmark/results/julia_gpu_${TIMESTAMP}.jsonl" \
         "${REPETITIONS}" \
         "${WARMUPS}"
 

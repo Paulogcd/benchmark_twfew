@@ -5,6 +5,6 @@ python_test_6 = twowayfeweights(
     T           = "year",
     D           = "changedailies",
     D0          = "numdailies",
-    type        = "feTR",
+    type        = "fdTR",
     controls    = styr_cols,
 )

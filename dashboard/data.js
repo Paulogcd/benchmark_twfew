@@ -1,6 +1,6 @@
 // This file is generated automatically. Do not edit.
 window.BENCHMARK_DATA = {
-  "generated_at": "2026-10-04T10:54:25.072205+00:00",
+  "generated_at": "2026-10-07T08:37:34.367882+00:00",
   "results": [
     {
       "benchmark": "01",
@@ -187,6 +187,382 @@ window.BENCHMARK_DATA = {
         {
           "repetition": 10,
           "elapsed_seconds": 0.021648625
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Julia",
+      "file": "results/01/julia_20261005T072024Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.022488792
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.021823833
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.021913417
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.034702375
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.02110275
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.021428625
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.022359083
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.021953
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.028490792
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.0215135
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Julia",
+      "file": "results/01/julia_20261005T072050Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.023354084
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.021973334
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.021549708
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.035519292
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.022012875
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.022833083
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.02388225
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.022775959
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.042406042
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.022701333
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Julia",
+      "file": "results/01/julia_20261005T072213Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.022495042
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.021742458
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.0218445
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.034146834
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.02097475
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.021241334
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.021234875
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.020906167
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.028015708
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.020908166
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Julia",
+      "file": "results/01/julia_20261005T072239Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.04004475
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.022776292
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.022217875
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.022687583
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.022403709
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.030690875
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.021937875
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.022016667
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.022651958
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.027011125
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Julia",
+      "file": "results/01/julia_20261005T072257Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.023035209
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.021963292
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.021510542
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.021662292
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.028763708
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.021809375
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.021180209
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.021688459
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.021025375
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.025239875
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Julia",
+      "file": "results/01/julia_20261005T072325Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.023232416
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.022355209
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.035014167
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.0222365
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.029369625
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.027297542
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.023276958
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.023207291
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.041935875
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.022278375
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Julia",
+      "file": "results/01/julia_20261007T082641Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.02275525
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.020970333
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.020681541
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.034312
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.020981125
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.020869208
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.020688417
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.020713167
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.039005083
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.020564209
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Julia",
+      "file": "results/01/julia_20261007T082710Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.023846959
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.02500425
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.024040542
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.023528709
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.041867958
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.022331583
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.022426042
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.023350709
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.021678666
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.021221583
         }
       ]
     },
@@ -380,6 +756,241 @@ window.BENCHMARK_DATA = {
     },
     {
       "benchmark": "01",
+      "package": "Julia\nmultithreading",
+      "file": "results/01/julia_multithreading_20261005T072037Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.011557334
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.010802791
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.016374541
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.010954583
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.010467875
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.015399833
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.0110425
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.0107045
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.013699833
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.010766209
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Julia\nmultithreading",
+      "file": "results/01/julia_multithreading_20261005T072226Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.01147775
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.01207075
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.016032166
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.010856834
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.010426083
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.015540125
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.010845334
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.010306708
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.01066625
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.014051917
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Julia\nmultithreading",
+      "file": "results/01/julia_multithreading_20261005T072311Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.017816959
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.011069208
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.011056167
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.01738925
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.010975833
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.010898791
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.010794541
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.014531583
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.010904458
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.013894541
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Julia\nmultithreading",
+      "file": "results/01/julia_multithreading_20261007T082654Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.018803625
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.010125
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.009962917
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.015317709
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.010220959
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.009459125
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.013984792
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.009567959
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.012701708
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.016010167
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Julia\nmultithreading",
+      "file": "results/01/julia_multithreading_20261007T082724Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.018286375
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.010744583
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.012278042
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.017042459
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.011174
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.010807292
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.015813291
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.011065708
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.015151792
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.0110375
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
       "package": "Python",
       "file": "results/01/python_20261004T103011Z.jsonl",
       "measurements": [
@@ -563,6 +1174,288 @@ window.BENCHMARK_DATA = {
         {
           "repetition": 10,
           "elapsed_seconds": 0.0018707500000019195
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Python",
+      "file": "results/01/python_20261005T072023Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.0021557089999078016
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.002017166999962683
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.0018754999999828215
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.001713833999929193
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.0019455419999303558
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.00173383300000296
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.0024117909999858966
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.0019683749999330757
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.0018486669999902006
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.0017888329999777852
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Python",
+      "file": "results/01/python_20261005T072213Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.0018414999999549764
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.0019107079999685084
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.0017768750000186628
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.0017517080000288843
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.0017460830000572969
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.0016640420000157974
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.0016886670000531012
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.002006292000032772
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.0017439580000200294
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.0017968329999575872
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Python",
+      "file": "results/01/python_20261005T072256Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.002335457999947721
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.0023632080000197675
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.002234375000057298
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.0022380829999519847
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.0021766249999473075
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.0022151669999175283
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.0020286669999904916
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.002219416999992063
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.002154415999939374
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.0021455419999938385
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Python",
+      "file": "results/01/python_20261006T080633Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.0022675000000020873
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.0020235419999963256
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.0019660419999993906
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.0019172919999945748
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.001904500000001974
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.0018605419999957462
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.002431500000000142
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.002311208000001841
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.002009166999997092
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.001970292000002871
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Python",
+      "file": "results/01/python_20261007T082640Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.0019601250000960135
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.0018766250000226137
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.001859167000020534
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.0017431250000754517
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.0016555830000015703
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.0017558329999474154
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.001701749999938329
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.0022600420001026578
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.0020550409999486874
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.001834708000046703
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "Python",
+      "file": "results/01/python_20261007T082710Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.0018800839999357777
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.0018347090000361277
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.0017087500000343425
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.0017646250000780128
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.0017377500000748114
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.0017804169999635633
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.0017169590000776225
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.002255792000028123
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.0018134169999939331
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.0019059169999309233
         }
       ]
     },
@@ -755,6 +1648,241 @@ window.BENCHMARK_DATA = {
       ]
     },
     {
+      "benchmark": "01",
+      "package": "r",
+      "file": "results/01/r_20261005T072022Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.043
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.05
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.043
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.043
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "r",
+      "file": "results/01/r_20261005T072212Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.062
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.051
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.043
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.043
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.044
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.044
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.042
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "r",
+      "file": "results/01/r_20261005T072255Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.046
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.054
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.044
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.047
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "r",
+      "file": "results/01/r_20261007T082639Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.041
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.057
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.052
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.043
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.043
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.043
+        }
+      ]
+    },
+    {
+      "benchmark": "01",
+      "package": "r",
+      "file": "results/01/r_20261007T082709Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.043
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.043
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.052
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.044
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.043
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.043
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.044
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.044
+        }
+      ]
+    },
+    {
       "benchmark": "02",
       "package": "Julia",
       "file": "results/02/julia_20261004T104513Z.jsonl",
@@ -798,6 +1926,147 @@ window.BENCHMARK_DATA = {
         {
           "repetition": 10,
           "elapsed_seconds": 0.004610125
+        }
+      ]
+    },
+    {
+      "benchmark": "02",
+      "package": "Julia",
+      "file": "results/02/julia_20261005T072340Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.017878833
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.004138292
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.003582084
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.003565
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.003554458
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.003360959
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.016614958
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.010169625
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.007956042
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.004586125
+        }
+      ]
+    },
+    {
+      "benchmark": "02",
+      "package": "Julia",
+      "file": "results/02/julia_20261005T072407Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.004064541
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.00388125
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.016763916
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.003844417
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.003374208
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.003380208
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.003618292
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.003681583
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.009828875
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.003567875
+        }
+      ]
+    },
+    {
+      "benchmark": "02",
+      "package": "Julia",
+      "file": "results/02/julia_20261007T082740Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.004061958
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.003431583
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.016414125
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.003536917
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.003534292
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.003435708
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.003229791
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.0095175
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.003605666
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.00320325
         }
       ]
     },
@@ -850,6 +2119,100 @@ window.BENCHMARK_DATA = {
     },
     {
       "benchmark": "02",
+      "package": "Julia\nmultithreading",
+      "file": "results/02/julia_multithreading_20261005T072354Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.004489833
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.048295125
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.004220917
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.004464625
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.004045625
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.003894417
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.004153959
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.005326667
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.00626925
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.004220958
+        }
+      ]
+    },
+    {
+      "benchmark": "02",
+      "package": "Julia\nmultithreading",
+      "file": "results/02/julia_multithreading_20261007T082753Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.005336625
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.013108666
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.004971625
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.004500667
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.005243791
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.004695042
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.011073334
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.004033333
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.003760167
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.003906
+        }
+      ]
+    },
+    {
+      "benchmark": "02",
       "package": "Python",
       "file": "results/02/python_20261004T104513Z.jsonl",
       "measurements": [
@@ -892,6 +2255,147 @@ window.BENCHMARK_DATA = {
         {
           "repetition": 10,
           "elapsed_seconds": 0.0018559170000003178
+        }
+      ]
+    },
+    {
+      "benchmark": "02",
+      "package": "Python",
+      "file": "results/02/python_20261005T072340Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.001921707999940736
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.001810459000012088
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.0019324169999208607
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.001767083000004277
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.0019088330000158749
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.001775542000018504
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.0020086250000304062
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.002152207999984057
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.0020725000000538785
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.0018661249999922802
+        }
+      ]
+    },
+    {
+      "benchmark": "02",
+      "package": "Python",
+      "file": "results/02/python_20261006T080635Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.0022171670000048493
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.0020504999999957363
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.0022362500000028263
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.0019246250000009013
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.001843666999995719
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.00199108399999659
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.002135916000000293
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.001876041999999245
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.0018522909999987291
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.0019243750000015325
+        }
+      ]
+    },
+    {
+      "benchmark": "02",
+      "package": "Python",
+      "file": "results/02/python_20261007T082739Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.0020588749999888023
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.0019070419999707156
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.0017390419999401274
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.0017545000000609434
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.0017347079999581183
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.001771417000099973
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.0017881250000755244
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.0019837090000009994
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.001855583000065053
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.0018409580000025016
         }
       ]
     },
@@ -943,6 +2447,194 @@ window.BENCHMARK_DATA = {
       ]
     },
     {
+      "benchmark": "02",
+      "package": "r",
+      "file": "results/02/r_20261005T072338Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.046
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.055
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.046
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.047
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.047
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.047
+        }
+      ]
+    },
+    {
+      "benchmark": "02",
+      "package": "r",
+      "file": "results/02/r_20261007T082738Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.046
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.054
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.046
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.048
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.059
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.047
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.047
+        }
+      ]
+    },
+    {
+      "benchmark": "03",
+      "package": "Julia",
+      "file": "results/03/julia_20261007T082815Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.045967875
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.053191791
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.042138375
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.047687708
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.044424959
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.041256583
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.044135208
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.043906
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.043213083
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.043477917
+        }
+      ]
+    },
+    {
+      "benchmark": "03",
+      "package": "Julia\nmultithreading",
+      "file": "results/03/julia_multithreading_20261007T082831Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.030990667
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.065065333
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.059679292
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.026236958
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.03234675
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.039993166
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.050886583
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.062971125
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.039178084
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.053055209
+        }
+      ]
+    },
+    {
       "benchmark": "03",
       "package": "r",
       "file": "results/03/r_20261004T104539Z.jsonl",
@@ -986,6 +2678,147 @@ window.BENCHMARK_DATA = {
         {
           "repetition": 10,
           "elapsed_seconds": 0.296
+        }
+      ]
+    },
+    {
+      "benchmark": "03",
+      "package": "r",
+      "file": "results/03/r_20261005T072421Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.304
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.303
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.337
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.292
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.286
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.309
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.31
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.295
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.294
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.299
+        }
+      ]
+    },
+    {
+      "benchmark": "03",
+      "package": "r",
+      "file": "results/03/r_20261007T082622Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.302
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.339
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.373
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.288
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.292
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.295
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.29
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.295
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.29
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.29
+        }
+      ]
+    },
+    {
+      "benchmark": "03",
+      "package": "r",
+      "file": "results/03/r_20261007T082810Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.34
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.346
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.406
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.317
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.325
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.34
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.321
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.343
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.327
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.332
         }
       ]
     },
@@ -1038,6 +2871,147 @@ window.BENCHMARK_DATA = {
     },
     {
       "benchmark": "04",
+      "package": "Julia",
+      "file": "results/04/julia_20261005T072502Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.0028545
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.002219458
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.002118583
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.002159041
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.00227475
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.00280325
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.002287
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.002079792
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.001993542
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.002041458
+        }
+      ]
+    },
+    {
+      "benchmark": "04",
+      "package": "Julia",
+      "file": "results/04/julia_20261005T072527Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.003005709
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.002479917
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.002221125
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.0021855
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.002722083
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.002359292
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.002128
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.002354833
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.020308667
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.002986583
+        }
+      ]
+    },
+    {
+      "benchmark": "04",
+      "package": "Julia",
+      "file": "results/04/julia_20261007T082848Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.00306175
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.00252375
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.002430917
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.002599667
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.002891875
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.002296792
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.002757625
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.002202709
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.002234708
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.002227208
+        }
+      ]
+    },
+    {
+      "benchmark": "04",
       "package": "Julia\nmultithreading",
       "file": "results/04/julia_multithreading_20261004T104621Z.jsonl",
       "measurements": [
@@ -1080,6 +3054,100 @@ window.BENCHMARK_DATA = {
         {
           "repetition": 10,
           "elapsed_seconds": 0.001792375
+        }
+      ]
+    },
+    {
+      "benchmark": "04",
+      "package": "Julia\nmultithreading",
+      "file": "results/04/julia_multithreading_20261005T072514Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.003031417
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.002006792
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.002152375
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.001844125
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.002267375
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.002194916
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.001938417
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.001831458
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.002003667
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.0024065
+        }
+      ]
+    },
+    {
+      "benchmark": "04",
+      "package": "Julia\nmultithreading",
+      "file": "results/04/julia_multithreading_20261007T082901Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.009556417
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.002976375
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.002737125
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.003101167
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.002834834
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.0026945
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.002624417
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.002215375
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.001939542
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.006703208
         }
       ]
     },
@@ -1132,6 +3200,147 @@ window.BENCHMARK_DATA = {
     },
     {
       "benchmark": "04",
+      "package": "Python",
+      "file": "results/04/python_20261005T072501Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.003241624999986925
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.003465957999992497
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.002397250000058193
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.0020377499999995052
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.002216374999989057
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.002462583999999879
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.0017461250000678774
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.0015621250000776854
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.0015692919999992228
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.001535916000079851
+        }
+      ]
+    },
+    {
+      "benchmark": "04",
+      "package": "Python",
+      "file": "results/04/python_20261006T080717Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.002475832999991212
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.002077333000002568
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.0013798750000120208
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.0010197499999975435
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.0009331669999994574
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.0009595829999966554
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.001056874999989077
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.0009140840000014805
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.0009617500000018708
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.0011277089999879308
+        }
+      ]
+    },
+    {
+      "benchmark": "04",
+      "package": "Python",
+      "file": "results/04/python_20261007T082847Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.0030476250000219807
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.0030871669999896767
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.0022981250000384534
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.002037125000015294
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.00183987499997329
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.0019717500000524524
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.0015205839999907766
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.0017712500000470754
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.001763208000056693
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.0016130420000308732
+        }
+      ]
+    },
+    {
+      "benchmark": "04",
       "package": "r",
       "file": "results/04/r_20261004T104607Z.jsonl",
       "measurements": [
@@ -1174,6 +3383,147 @@ window.BENCHMARK_DATA = {
         {
           "repetition": 10,
           "elapsed_seconds": 0.015
+        }
+      ]
+    },
+    {
+      "benchmark": "04",
+      "package": "r",
+      "file": "results/04/r_20261005T072500Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.013
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.012
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.014
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.012
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.013
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.014
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.012
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.013
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.012
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.014
+        }
+      ]
+    },
+    {
+      "benchmark": "04",
+      "package": "r",
+      "file": "results/04/r_20261007T082846Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.013
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.012
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.013
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.012
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.013
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.013
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.012
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.013
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.011
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.013
+        }
+      ]
+    },
+    {
+      "benchmark": "05",
+      "package": "Python",
+      "file": "results/05/python_20261007T082914Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.21302066699990974
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.20913266699994892
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.24036437500001284
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.25420600000006743
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.20307779199993092
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.257978249999951
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.2345391669999799
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.298702832999993
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.24676208299990776
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.23776245800002016
         }
       ]
     },
@@ -1226,6 +3576,147 @@ window.BENCHMARK_DATA = {
     },
     {
       "benchmark": "06",
+      "package": "Julia",
+      "file": "results/06/julia_20261005T072540Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 9.694245004
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 9.584918921
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 10.06349963
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 9.634027712
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 9.738766713
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 9.861120755
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 9.757856504
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 9.392122672
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 9.481236629
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 9.591201712
+        }
+      ]
+    },
+    {
+      "benchmark": "06",
+      "package": "Julia",
+      "file": "results/06/julia_20261005T073319Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 9.776613463
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 9.646161338
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 9.881351128
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 9.775945379
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 9.622402088
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 9.382761087
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 9.448941422
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 9.474167296
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 9.459568462
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 9.361877338
+        }
+      ]
+    },
+    {
+      "benchmark": "06",
+      "package": "Julia",
+      "file": "results/06/julia_20261007T082931Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 10.653856463
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 10.200784254
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 10.391002172
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 9.899168255
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 10.027347671
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 10.106379338
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 9.836123088
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 9.712035087
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 11.55925963
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 11.228824089
+        }
+      ]
+    },
+    {
+      "benchmark": "06",
       "package": "Julia\nmultithreading",
       "file": "results/06/julia_multithreading_20261004T105045Z.jsonl",
       "measurements": [
@@ -1268,6 +3759,241 @@ window.BENCHMARK_DATA = {
         {
           "repetition": 10,
           "elapsed_seconds": 6.879661462
+        }
+      ]
+    },
+    {
+      "benchmark": "06",
+      "package": "Julia\nmultithreading",
+      "file": "results/06/julia_multithreading_20261005T072950Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 6.643875086
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 7.134264379
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 6.42823942
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 6.44291992
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 6.347551336
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 6.514565086
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 6.416455878
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 6.290127378
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 6.371070378
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 6.250434003
+        }
+      ]
+    },
+    {
+      "benchmark": "06",
+      "package": "Julia\nmultithreading",
+      "file": "results/06/julia_multithreading_20261007T083348Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 7.911213295
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 7.432299462
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 7.22478067
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 7.339294462
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 7.15716317
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 7.527765379
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 8.542777213
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 7.229209587
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 6.657740336
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 6.74203917
+        }
+      ]
+    },
+    {
+      "benchmark": "06",
+      "package": "Python",
+      "file": "results/06/python_20261006T080824Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.47905737499999645
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.4596366250000017
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.4083077090000131
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.50629866700001
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.5161625000000072
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.4901997919999985
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.45801979200001597
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.4074822919999974
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.4872701249999807
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.4064599170000065
+        }
+      ]
+    },
+    {
+      "benchmark": "06",
+      "package": "Python",
+      "file": "results/06/python_20261007T082136Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.35509291700003587
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.3836291250000272
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.36681566700002577
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.7694746669999972
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.7967757090000305
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 6.319720502999985
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 5.042266503000008
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 5.8493767940000225
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 5.144242459999987
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 5.61466175299995
+        }
+      ]
+    },
+    {
+      "benchmark": "06",
+      "package": "Python",
+      "file": "results/06/python_20261007T082928Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.24327087500000744
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.2622016249999888
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.22245599999996557
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.19863900000007106
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.23573675000000094
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.23188054100000954
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.24423429199998736
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.236260500999947
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.2051854999999705
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.3177339999999731
         }
       ]
     }

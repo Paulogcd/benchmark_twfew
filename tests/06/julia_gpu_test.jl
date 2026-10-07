@@ -1,10 +1,10 @@
-python_test_6 = twowayfeweights(
+julia_test_6 = twowayfeweights(
     data        = data,
     Y           = "prestout",
     G           = "cnty90",
     T           = "year",
-    D           = "changedailies",
-    D0          = "numdailies",
+    D           = "numdailies",
     type        = "feTR",
     controls    = styr_cols,
+    method      = :Metal
 )
