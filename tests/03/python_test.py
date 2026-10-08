@@ -6,7 +6,7 @@ python_resultat_3 = twowayfeweights(
     D                   = "rel_time1",
     type                = "feTR",
     test_random_weights = "year",
-    weights             = weights,
+    weights             = weights_test,
     other_treatments    = other_treatments,
     controls            = controls 
 )

@@ -12,5 +12,6 @@ data = pd.read_stata(url)
 
 # Variables
 controls            = [f"rel_timeminus{i}" for i in range(1, 10)]
-other_treatments    = [f"rel_time{i}" for i in range(2, 16)]
-weights             = data["stpop"]
+other_treatments    = [f"rel_time{i}" for i in range(2, 17)]
+# weights_test        = data["stpop"]
+weights_test        = "stpop"
