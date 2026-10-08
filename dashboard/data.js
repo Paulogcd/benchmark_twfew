@@ -1,6 +1,6 @@
 // This file is generated automatically. Do not edit.
 window.BENCHMARK_DATA = {
-  "generated_at": "2026-10-07T08:37:34.367882+00:00",
+  "generated_at": "2026-10-08T14:39:54.872575+00:00",
   "results": [
     {
       "benchmark": "01",
@@ -3482,6 +3482,53 @@ window.BENCHMARK_DATA = {
     },
     {
       "benchmark": "05",
+      "package": "Julia",
+      "file": "results/05/julia_20261008T140905Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 9.977836296
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 10.564893046
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 9.197470171
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 9.214131088
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 9.755091047
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 9.928779796
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 9.604718254
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 10.902133547
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 10.179277546
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 9.339212963
+        }
+      ]
+    },
+    {
+      "benchmark": "05",
       "package": "Python",
       "file": "results/05/python_20261007T082914Z.jsonl",
       "measurements": [
@@ -3524,6 +3571,76 @@ window.BENCHMARK_DATA = {
         {
           "repetition": 10,
           "elapsed_seconds": 0.23776245800002016
+        }
+      ]
+    },
+    {
+      "benchmark": "05",
+      "package": "Python",
+      "file": "results/05/python_20261008T134112Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 0.2038329589999961
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 0.20349466700000107
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 0.2037433340000092
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 0.23914354199999366
+        },
+        {
+          "repetition": 5,
+          "elapsed_seconds": 0.20992283399999678
+        },
+        {
+          "repetition": 6,
+          "elapsed_seconds": 0.23185412499999813
+        },
+        {
+          "repetition": 7,
+          "elapsed_seconds": 0.281202915999998
+        },
+        {
+          "repetition": 8,
+          "elapsed_seconds": 0.2984491670000011
+        },
+        {
+          "repetition": 9,
+          "elapsed_seconds": 0.25762554199999954
+        },
+        {
+          "repetition": 10,
+          "elapsed_seconds": 0.4479440000000068
+        }
+      ]
+    },
+    {
+      "benchmark": "05",
+      "package": "r",
+      "file": "results/05/r_20261008T134818Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 454.174
+        },
+        {
+          "repetition": 2,
+          "elapsed_seconds": 467.168
+        },
+        {
+          "repetition": 3,
+          "elapsed_seconds": 453.796
+        },
+        {
+          "repetition": 4,
+          "elapsed_seconds": 450.685
         }
       ]
     },
@@ -3994,6 +4111,17 @@ window.BENCHMARK_DATA = {
         {
           "repetition": 10,
           "elapsed_seconds": 0.3177339999999731
+        }
+      ]
+    },
+    {
+      "benchmark": "06",
+      "package": "r",
+      "file": "results/06/r_20261008T141038Z.jsonl",
+      "measurements": [
+        {
+          "repetition": 1,
+          "elapsed_seconds": 450.27
         }
       ]
     }
